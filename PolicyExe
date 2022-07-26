@@ -17,3 +17,9 @@ Nada é bloqueado
 
 💻 Undefined
 Não há diretiva de executação definida
+
+💻
+Get-Command *-ExecutionPolicy
+Get-ExecutionPolicy
+Set-ExecutionPolicy -ExecutionPolicy Restricted
+Set-ExecutionPolicy -ExecutionPolicy Restricted -Scope LocalMachine -Force
