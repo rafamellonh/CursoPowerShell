@@ -1,0 +1,10 @@
+💻 Restricted
+Permite usar o shell mas não executar scripts
+
+💻 Allsigned
+Permite executar scripts, mas requer que sejam assinados por um fornecedor confiável
+mesmo os criados no próprio computador
+
+💻 RemoteSigned
+Permite executar scripts, mas requer que sejam assinados por um fornecedor confiável
+exeto os criados no mesmo computador
