@@ -12,5 +12,11 @@ Set-Location  + Diretório,
 
 💻 Retorna todos os commandLets
 get-command
- Get-Command "*-Host"
- Get-Command ???-Host
+Get-Command "*-Host"
+Get-Command ???-Host
+
+💻 Ajuda com os comandos
+Get-help get-host
+Get-help get-host -Detailed
+# Ajuda em uma interface gráfica
+Get-help get-host -ShowWindow
