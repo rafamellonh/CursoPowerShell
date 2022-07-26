@@ -9,3 +9,8 @@ Set-Location  + Diretório,
 . é a pasta atual
 .. retorna
 /,\ Raiz
+
+💻 Retorna todos os commandLets
+get-command
+ Get-Command "*-Host"
+ Get-Command ???-Host
