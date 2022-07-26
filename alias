@@ -1,1 +1,6 @@
 💻
+Get-Command "*alias*"
+Get-Alias
+
+New-Alias -Name limpar -Value Clear-Host 
+Get-Alias limpar
