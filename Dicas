@@ -1,10 +1,10 @@
 CTRL + BACKSPACE Apaga uma palavra toda.
 
-:computer:	
-# É igual ao comando DIR
+
+💻 É igual ao comando DIR
 Get-ChildItem é igual ao comando DIR
 
-# Para entrar em uma pasta.
+💻 Para entrar em uma pasta.
 Set-Location  + Diretório,
 . é a pasta atual
 .. retorna
