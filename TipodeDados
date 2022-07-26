@@ -1,1 +1,15 @@
+💻
+$arquivo = Get-Item .\teste.txt
+$arquivo | Get-Member -MemberType Methods
 
+#Join junta uma matriz e uma string
+[string]::Join("-", @("Rafael", "Luiz", "de", "Mello"))
+([string]::Join("-", @("Rafael", "Luiz", "de", "Mello"))).gettype()
+
+💻 Converte tudo para Maiusculo 
+"Rafael Mello".ToUpper()
+
+💻 Converter algo para inteiro
+[int]"10"
+#Valida a conversão
+([int]"10").GetType()
