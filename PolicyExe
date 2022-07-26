@@ -8,3 +8,12 @@ mesmo os criados no próprio computador
 💻 RemoteSigned
 Permite executar scripts, mas requer que sejam assinados por um fornecedor confiável
 exeto os criados no mesmo computador
+
+💻 Unrestricted
+Os scripts desconhecidos podem ser executados, mas adverte o usuário antes de executar um script baixado da internet
+
+💻 Bypass
+Nada é bloqueado
+
+💻 Undefined
+Não há diretiva de executação definida
