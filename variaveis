@@ -7,3 +7,6 @@ $nome = "Rafael"
 
 💻
 New-Variable -Name nome1 -Value Mello
+
+💻 Variavel somente leitura
+New-Variable -Name cep -Value 3.14 -Option ReadOnly
