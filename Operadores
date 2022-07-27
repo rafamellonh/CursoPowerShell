@@ -24,3 +24,8 @@ $matriz -ccontains 2
 -notcontains
 -is
 -isnot
+
+💻Operadores aritiméticos
+" +, -, *, /"
+
+% resto da divisão
