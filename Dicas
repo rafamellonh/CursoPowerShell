@@ -20,3 +20,6 @@ Get-help get-host
 Get-help get-host -Detailed
 # Ajuda em uma interface gráfica
 Get-help get-host -ShowWindow
+
+💻 Calcular os dias que faltam para o natal
+[datetime]"12/25/2022" - [datetime]::Now
