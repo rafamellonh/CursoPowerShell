@@ -1,0 +1,6 @@
+💻 Variavel já definindo o tipo
+[string] $nome = "Rafael"
+$nome.GetType()
+
+💻 Variavel normal
+$nome = "Rafael"
