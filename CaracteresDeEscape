@@ -8,3 +8,6 @@
 `t	Guia horizontal
 `u{x}	Sequência de escape Unicode
 `v	Guia vertical
+
+
+💻 Aspas simples não deixa utilizar variaveis e outras coisas, utilizar somente aspas duplas
