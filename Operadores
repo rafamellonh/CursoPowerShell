@@ -7,3 +7,20 @@ $matriz = 1..10
 $matriz
 #verifica se dentro da matriz tem o número 2
 $matriz -ccontains 2
+
+
+💻Operadores de comparação 
+-eq: igual a;
+-ne: diferente de;
+-ge: maior ou igual a;
+-gt: maior que;
+-le: menor ou igual a;
+-lt: menor que;
+-like
+-notlike
+-match: Combina com expressão regular;
+-notmatch: Não combina com expressão regular;
+-contains
+-notcontains
+-is
+-isnot
