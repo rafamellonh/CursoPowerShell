@@ -4,3 +4,6 @@ $nome.GetType()
 
 💻 Variavel normal
 $nome = "Rafael"
+
+💻
+New-Variable -Name nome1 -Value Mello
