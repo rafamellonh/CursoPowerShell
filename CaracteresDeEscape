@@ -1,0 +1,10 @@
+`0	Nulo
+`a	Alerta
+`b	Backspace
+`e	Escape
+`f	Avanço de formulário
+`n	Nova linha
+`r	Retorno de carro
+`t	Guia horizontal
+`u{x}	Sequência de escape Unicode
+`v	Guia vertical
