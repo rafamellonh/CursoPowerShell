@@ -1,0 +1,3 @@
+
+💻Quando o nome da variavel é MAIUSCULA é uma constante e não pode ser alterado
+New-Variable -Name PI -Value 3.14 -Option Constant
