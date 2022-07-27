@@ -1,1 +1,7 @@
+💻
 
+if ("AQUI VAI A COMPARAÇÃO SE ALGO VAI SER EXECUTADO OU NAO"){
+  " Aqui vai a execução caso precise executar o if"
+}
+
+if (1 -lt 5){"1 é menor que 5"}
