@@ -23,3 +23,9 @@ Get-help get-host -ShowWindow
 
 💻 Calcular os dias que faltam para o natal
 [datetime]"12/25/2022" - [datetime]::Now
+
+
+💻 Write-host
+#obtém a informação e já joga na tela
+Write-Host -Object (Get-Date)
+Write-Host -Object (Get-Date) -BackgroundColor Red -ForegroundColor Yellow
