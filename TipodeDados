@@ -1,3 +1,10 @@
+
+💻 1 - Inteiro
+(1).GetType()
+
+💻 "1" String
+("1").GetType()
+
 💻
 $arquivo = Get-Item .\teste.txt
 $arquivo | Get-Member -MemberType Methods
