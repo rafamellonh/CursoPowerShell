@@ -1,1 +1,2 @@
-💻 
+💻 Alterar todos as palavras Computador dentro do arquivo teste.txt para TESTE e salva no arquivo teste1.txt
+(Get-Content .\teste.TXT) -replace "(Computador)", "TESTE" > teste1.txt
