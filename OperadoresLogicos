@@ -1,0 +1,12 @@
+💻
+Operador	Descrição	Exemplo
+-and	AND Lógico. VERDADEIRO quando ambos	(1 -eq 1) -and (1 -eq 2)
+as instruções são verdadeiras.	False
+-or	OR Lógico. VERDADEIRO quando o	(1 -eq 1) -or (1 -eq 2)
+a instrução é verdadeira.	True
+-xor	Lógico exclusivo ou. VERDADEIRO quando	(1 -eq 1) -xor (2 -eq 2)
+apenas uma instrução é verdadeira	False
+-not	Não lógico. Nega a instrução	-not (1 -eq 1)
+a seguir.	False
+!	Mesmo que -not	!(1 -eq 1)
+False
