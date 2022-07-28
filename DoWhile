@@ -1,1 +1,11 @@
 💻
+$n1 = "sair"
+$n2 = "sair"
+
+do {
+    $n1 = [float](Read-Host "1º nota")
+    $n2 = [float](Read-Host "2º nota")
+    $rst = ($n1+$n2)/2
+    Write-Host "A média do aluno é $rst"
+} while ($n1 -ne "0" -and $n2 -ne "0")
+
