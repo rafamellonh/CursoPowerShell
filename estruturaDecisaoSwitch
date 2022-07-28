@@ -34,12 +34,14 @@ switch ($dia) {
 💻
 $dia = (Get-Date).DayOfWeek.value__
 switch ($dia) {
-    0 {"O dia é domingo"}
-    1 {"O dia é segunda"}
-    2 {"O dia é terça"}
-    3 {"O dia é quarta"}
-    4 {"O dia é quinta"}
-    5 {"O dia é sexta"}
-    6 {"O dia é sabado"}
+    0 {"O dia é domingo"; break}
+    1 {"O dia é segunda"; break}
+    2 {"O dia é terça"; break}
+    3 {"O dia é quarta"; break}
+    4 {"O dia é quinta"; break}
+    5 {"O dia é sexta"; break}
+    6 {"O dia é sabado"; break}
 }
+
+
 
