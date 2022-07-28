@@ -9,3 +9,12 @@ Switch ($cor){
     "branco" {"Você escolheu branco"}
 }
 
+💻 Switch com Default
+$cor = "branco"
+
+Switch ($cor){
+    "azul" {"Você escolheu azul"}
+    "preto" {"Você escolheu preto"}
+    "vermelho" {"Você escolheu vermelho"}
+    default {"Você escolheu branco"}
+}
