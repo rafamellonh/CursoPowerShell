@@ -1,1 +1,11 @@
+💻
+
+$cor = "branco"
+
+Switch ($cor){
+    "azul" {"Você escolheu azul"}
+    "preto" {"Você escolheu preto"}
+    "vermelho" {"Você escolheu vermelho"}
+    "branco" {"Você escolheu branco"}
+}
 
