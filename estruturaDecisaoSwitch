@@ -1,7 +1,6 @@
 💻
 
 $cor = "branco"
-
 Switch ($cor){
     "azul" {"Você escolheu azul"}
     "preto" {"Você escolheu preto"}
@@ -11,10 +10,22 @@ Switch ($cor){
 
 💻 Switch com Default
 $cor = "branco"
-
 Switch ($cor){
     "azul" {"Você escolheu azul"}
     "preto" {"Você escolheu preto"}
     "vermelho" {"Você escolheu vermelho"}
     default {"Você escolheu branco"}
+}
+
+
+💻
+$dia = 3
+switch ($dia) {
+    "0" {"O dia é domingo"}
+    "1" {"O dia é segunda"}
+    "2" {"O dia é terça"}
+    "3" {"O dia é quarta"}
+    "4" {"O dia é quinta"}
+    "5" {"O dia é sexta"}
+    "6" {"O dia é sabado"}
 }
