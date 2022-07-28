@@ -1,1 +1,4 @@
-
+💻
+$n = 1
+#$n++ vai incrementar o contador 1 
+while ($n -le 10) {Write-Host $n; $n++}
