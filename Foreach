@@ -1,1 +1,5 @@
 📌
+
+$matriz = 1..10
+# para cada $item na $matriz execute uma operaçõa {}
+foreach($item in $matriz) {$item * $item}
