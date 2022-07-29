@@ -1,1 +1,13 @@
+💻
+$n = 0
+while ($n -lt 11){ $n++
+    if ($n -eq 5) {continue}
+    Write-Host $n
+}
 
+$par = 0
+while ($par -le 20){
+    $par++
+    if ($par % 2 -eq 0){continue}
+    else{" $par O número é impar"}
+}
