@@ -11,3 +11,17 @@ while ($par -le 20){
     if ($par % 2 -eq 0){continue}
     else{" $par O número é impar"}
 }
+
+$par = 0
+while ($par -le 20){
+    $par++
+    if ($par % 2 -eq 0){break}
+    else{" $par O número é impar"}
+}
+
+$s = 0 
+while ($s -le 1000){
+    if($s -eq 11){break}
+    Write-Host $s
+    $s++
+}  
