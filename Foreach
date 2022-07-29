@@ -3,3 +3,34 @@
 $matriz = 1..10
 # para cada $item na $matriz execute uma operaçõa {}
 foreach($item in $matriz) {$item * $item}
+
+#listando as cores do console
+
+
+foreach ($cor in [Enum]::GetValues([ConsoleColor])) {Write-Host "        " -BackgroundColor $cor}
+📌
+#listando arquivos de acordo com o tamanhos
+foreach ($item in Get-ChildItem C:\Windows\System32 -File){ 
+    if ($item.length -gt 1mb){
+        $item.name
+    }
+}
+
+📌
+#mover todos arquivos de uma extensão para uma pasta e adicionar a data de criação no nome
+
+#pasta de onde vai pegar os arquivos
+$path = "D:\OneDrive\OneDrive - SUPPORT TI GESTAO DE TECNOLOGIAS LTDA\01 - Cursos\TI\Cursos\PowerShell"
+#move o console para o d:\ para poder executar
+
+#variavel onde vai guardar os arquivos, se não tiver ele vai criar no IF
+$dest = "c:\scripts"
+If (!(Test-Path $dest)){New-Item -Path $dest -ItemType Directory}
+Set-Location d:\
+
+#pega todos itens .ps1 dentro da pasta da variavel $path e copia para a pasta da variavel $dest adicionando no nome a data
+foreach ($item1 in Get-ChildItem -Path $path -Filter *.ps1 -Recurse){
+    Copy-Item $item1.FullName ($dest + "\(" + $item1.LastWriteTime.ToString("dd.MM.yy") + ")-" + $item1)
+}
+
+
